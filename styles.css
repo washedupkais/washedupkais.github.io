@@ -5,10 +5,10 @@ h1 {
     font-size: 10em; /* Adjust the size as needed */
 }
 
-#navbar__logo, .navbar__link {
+#navbar__link-container {
     font-size: 5em; /* Adjust the size as needed */
 }
-#navbar__logo img, .navbar__link img {
+#navbar__link img {
     width: 30px; /* Adjust the width as needed */
     height: 30px; /* Adjust the height as needed */
 }
