@@ -1,5 +1,6 @@
 Header {
     box-sizing: border-box;
+    text-align: center;
 }
 .navbar--container {
     display: flex;
@@ -13,4 +14,11 @@ Header {
 
 .navbar__link-container {
     margin-top: 10px;
+}
+h1 {
+    font-size: 3.5em; /* Adjust the size as needed */
+}
+
+#navbar__logo, .navbar__link {
+    font-size: 1.2em; /* Adjust the size as needed */
 }
