@@ -2,14 +2,14 @@
 h1 {
     box-sizing: border-box;
     text-align: center;
-    font-size: 10em; /* Adjust the size as needed */
+    font-size: 8em; /* Adjust the size as needed */
 }
 
 #navbar__link, #navbar__logo, #navbar__zip {
-    font-size: 0.8em; /* Adjust the size as needed */
+    font-size: 2em; /* Adjust the size as needed */
 }
 
 img {
-    width: 50px; /* Adjust the width as needed */
-    height: 50px; /* Adjust the height as needed */
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
 }
