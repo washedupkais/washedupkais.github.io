@@ -16,9 +16,9 @@ Header {
     margin-top: 10px;
 }
 h1 {
-    font-size: 3.5em; /* Adjust the size as needed */
+    font-size: 10em; /* Adjust the size as needed */
 }
 
 #navbar__logo, .navbar__link {
-    font-size: 1.2em; /* Adjust the size as needed */
+    font-size: 5em; /* Adjust the size as needed */
 }
