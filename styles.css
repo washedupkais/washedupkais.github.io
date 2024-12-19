@@ -1,8 +1,14 @@
+body {
+    background-image: url(hq720.jpg); /* Replace with the path to your image */
+    background-size: cover; /* Adjusts the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
 
 h1 {
     box-sizing: border-box;
     text-align: center;
-    font-size: 8em; /* Adjust the size as needed */
+    font-size: 5em; /* Adjust the size as needed */
 }
 
 #navbar__link, #navbar__logo, #navbar__zip {
@@ -10,6 +16,6 @@ h1 {
 }
 
 img {
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
 }
