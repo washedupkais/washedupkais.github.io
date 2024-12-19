@@ -1,5 +1,5 @@
 body {
-    background-image: url(hq720.jpg); /* Replace with the path to your image */
+    background-image: url(hq720.jpg); width: 800px; height: 700px;/* Replace with the path to your image */
     background-size: cover; /* Adjusts the image to cover the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
@@ -13,9 +13,10 @@ h1 {
 
 #navbar__link, #navbar__logo, #navbar__zip {
     font-size: 2em; /* Adjust the size as needed */
+    color: red; /* Adjust the color as needed */
 }
 
 img {
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
 }
