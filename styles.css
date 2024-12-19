@@ -6,9 +6,9 @@ h1 {
 }
 
 #navbar__link-container {
-    font-size: 5em; /* Adjust the size as needed */
+    font-size: 1em; /* Adjust the size as needed */
 }
-#navbar__link img {
+img {
     width: 30px; /* Adjust the width as needed */
     height: 30px; /* Adjust the height as needed */
 }
