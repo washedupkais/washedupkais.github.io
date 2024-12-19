@@ -1,17 +1,4 @@
 
-.navbar--container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#navbar__logo {
-    margin-bottom: 10px;
-}
-
-.navbar__link-container {
-    margin-top: 10px;
-}
 h1 {
     box-sizing: border-box;
     text-align: center;
