@@ -1,22 +1,28 @@
 body {
-    background-image: url(hq720.jpg); width: 800px; height: 700px;/* Replace with the path to your image */
+    background-image: url('hq720.jpg'); /* Replace with the path to your image */
     background-size: cover; /* Adjusts the image to cover the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
+    margin: 0;
+    height: 790px;
+    
 }
 
 h1 {
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 5em; /* Adjust the size as needed */
+    font-size: 8em; /* Adjust the size as needed */
+    color: blue; /* Adjust the color as needed */
+    width: 100%; /* Make the header cover the full width */
+    text-align: center; /* Center the text */
+    margin: 0; /* Remove default margin */
+    padding: 20px 0; /* Add padding for spacing */
 }
 
 #navbar__link, #navbar__logo, #navbar__zip {
-    font-size: 2em; /* Adjust the size as needed */
-    color: red; /* Adjust the color as needed */
+    font-size: 3em; /* Adjust the size as needed */
+    color: greenyellow; /* Adjust the color as needed */
 }
 
 img {
-    width: 50px; /* Adjust the width as needed */
-    height: 50px; /* Adjust the height as needed */
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
 }
