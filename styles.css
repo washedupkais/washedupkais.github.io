@@ -15,11 +15,11 @@
 h1 {
     box-sizing: border-box;
     text-align: center;
-    font-size: 50em; /* Adjust the size as needed */
+    font-size: 10em; /* Adjust the size as needed */
 }
 
 #navbar__logo, .navbar__link {
-    font-size: 10em; /* Adjust the size as needed */
+    font-size: 5em; /* Adjust the size as needed */
 }
 #navbar__logo img, .navbar__link img {
     width: 30px; /* Adjust the width as needed */
