@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        
+
+        #navbar__link, #navbar__logo, #navbar__zip, #navbar__projects {
+            font-size: 1em; /* Adjust the size as needed */
+            color: black; /* Adjust the color as needed */
+        }
+
+        img {
+            width: 50px; /* Adjust the width as needed */
+            height: 50px; /* Adjust the height as needed */
+        }
+
+        .PC_Browser {
+            display: none; /* Hide the menu by default */
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .menu-toggle {
+            display: block; /* Show the toggle button */
+        }
+
+        .navbar:hover .PC_Browser {
+            display: flex; /* Show the menu on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Antonio Kaiser Arnaiz</h1>
+    <p>Personal statement: I am a versatile support analyst skilled handling data, technical issues and personnel support
+        tasks in production environments.Self-motivated and attentive with good interpersonal and
+        problem-solving abilities. I offer 4 years of experience in supporting local government enterprise
+        software. </p>
+    <nav class="navbar">
+        <button class="menu-toggle" id="menuButton">Menu</button>
+        <div class="PC_Browser" id="menu">
+            <div class="navbar__link-container">
+                <a href="Resume kais.pdf" id="navbar__logo">
+                    <img src="images/Self.jpg" alt="Resume Logo" width="150" height="150">
+                    Resume
+                </a>
+                <div class="navbar__link-container">
+                    <a href="https://www.linkedin.com/in/antonio-arnaiz-272b361b7/" class="navbar__link" id="navbar__link">
+                        <img src="images/LinkedIn_logo_initials.png" alt="LinkedIn Logo" width="150" height="150">
+                        LinkedIn
+                    </a>
+                </div>
+                <div class="navbar__link-container">
+                    <a href="Website Zip Dec 12 24.zip" class="navbar__link" id="navbar__zip">
+                        <img src="images/6861248.png" alt="ZIP Logo" width="150" height="150">
+                        Website ZIP Download
+                    </a>
+                </div>
+                <div class="navbar__link-container">
+                    <a href="Datacom.com" class="navbar__link" id="navbar__projects">
+                        <img src="images/Project.jpg" alt="Projects Logo" width="150" height="150">
+                        Projects
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
