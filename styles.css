@@ -64,7 +64,8 @@ img {
     color: black;
     font-size: 1.5em;
 }
-p { font-size: 10em;
+p { 
+    font-size:5em; 
     color: black;
     width: 100%;
     text-align: center;
