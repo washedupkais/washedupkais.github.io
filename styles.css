@@ -84,4 +84,7 @@ p {
     h1 {
         font-size: 4em; /* Adjust the size as needed */
     }
+    p {
+        font-size: 0.5em;
+    }
 }
